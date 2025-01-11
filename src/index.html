@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+
+  <title>Atika</title>
+</head>
+
+<body class="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white">
+  <!-- Menu de Navegação -->
+  <nav class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-4 py-4">
+      <!-- Logo -->
+      <div class="text-2xl font-bold tracking-wide">
+        Atika<span class="text-yellow-500">Crypto</span>
+      </div>
+
+      <!-- Links do Menu -->
+      <ul class="hidden md:flex space-x-6 text-lg font-semibold tracking-wide">
+        <li>
+          <a href="#about" class="relative group">
+            <span class="group-hover:scale-110 transition-transform duration-300">
+              Sobre Nós
+            </span>
+            <span class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#features" class="relative group">
+            <span class="group-hover:scale-110 transition-transform duration-300">
+              Funcionalidades
+            </span>
+            <span class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#whitelist" class="relative group">
+            <span class="group-hover:scale-110 transition-transform duration-300">
+              Whitelist
+            </span>
+            <span class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="relative group">
+            <span class="group-hover:scale-110 transition-transform duration-300">
+              Contato
+            </span>
+            <span class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Botão Mobile -->
+      <button id="menuToggle" class="md:hidden focus:outline-none">
+        <div class="w-6 h-1 bg-white mb-1"></div>
+        <div class="w-6 h-1 bg-white mb-1"></div>
+        <div class="w-6 h-1 bg-white"></div>
+      </button>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div id="mobileMenu" class="hidden md:hidden bg-gray-700">
+      <ul class="flex flex-col space-y-2 px-4 py-4">
+        <li><a href="#about" class="block hover:text-yellow-500 transition duration-300">Sobre Nós</a></li>
+        <li><a href="#features" class="block hover:text-yellow-500 transition duration-300">Funcionalidades</a></li>
+        <li><a href="#whitelist" class="block hover:text-yellow-500 transition duration-300">Whitelist</a></li>
+        <li><a href="#contact" class="block hover:text-yellow-500 transition duration-300">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner Estilizado -->
+  <section class="flex justify-center items-center px-4 mt-12 mb-12">
+    <div class="relative w-full max-w-4xl h-64 rounded-lg overflow-hidden shadow-xl border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900">
+      <!-- Vídeo de fundo -->
+      <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+        <source src="./atikabannervideo.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+      </video>
+    </div>
+  </section>
+  <section class="py-12 px-8 bg-section">
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+      <!-- Caixa de texto -->
+      <div class="text-left bg-gradient-to-b from-gray-800 via-gray-700 to-gray-800 p-6 shadow-lg border border-gray-700 max-w-lg ml-auto">
+        <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-purple-400 to-blue-400 mb-4">
+          Assista ao nosso vídeo
+        </h2>
+        <p class="text-base text-gray-300 mb-4">
+          Descubra como a Atika Crypto está revolucionando o mercado com sua tecnologia inovadora, conectando segurança quântica, transações rápidas e inclusão global. Veja agora!
+        </p>
+        <button class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
+          Saiba mais
+        </button>
+      </div>
+
+      <!-- Caixa do vídeo -->
+      <div class="relative max-w-lg flex justify-center items-center">
+        <div class="rounded-lg overflow-hidden shadow-xl border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900">
+          <video controls class="w-full rounded-lg border border-gray-600">
+            <source src="./atikavideo.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Funcionalidades -->
+  <section class="py-12 px-8">
+
+
+
+    <div class="text-center relative">
+
+      <!-- Título -->
+      <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-100 via-purple-100 to-blue-200 mb-6 text-center ">
+        Funcionalidades
+      </h2>
+
+
+
+
+      <!-- Espaçamento entre a linha e os cards -->
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl max-w-sm mx-auto">
+          <img src="./secicon.jpg" alt="Segurança Quântica" class="w-full h-73 object-cover transition duration-300 hover:brightness-75">
+          <div class="p-6 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Segurança Quântica</h3>
+            <p class="text-base text-gray-300">
+              Tecnologia de ponta baseada em algoritmos quânticos para proteger transações e informações com o mais alto nível de segurança.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl max-w-sm mx-auto">
+          <img src="./escala.jpg" alt="Escalabilidade" class="w-full h-73 object-cover transition duration-300 hover:brightness-75">
+          <div class="p-6 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Escalabilidade</h3>
+            <p class="text-base text-gray-300">
+              Infraestrutura avançada para processar milhões de transações por segundo, garantindo eficiência e confiabilidade global.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl max-w-sm mx-auto">
+          <img src="./acess.jpg" alt="Acessibilidade" class="w-full h-73 object-cover transition duration-300 hover:brightness-75">
+          <div class="p-6 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Acessibilidade</h3>
+            <p class="text-base text-gray-300">
+              Projetada para ser acessível a qualquer pessoa, em qualquer dispositivo, proporcionando inclusão financeira global.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Sobre Atika -->
+  <section class="py-16 px-4 flex justify-center">
+    <div class="relative bg-gradient-to-b from-gray-800 to-black overflow-hidden rounded-lg shadow-[0_20px_50px_rgba(0,0,0,0.9)] border border-gray-700 max-w-7xl w-10/12 px-16 py-20">
+      <!-- Fundo animado -->
+      <div class="absolute inset-0 flex justify-center items-center opacity-20">
+        <img src="./fundosobreatika.jpg " alt=""" class=" w-full h-full object-cover rounded-lg">
+      </div>
+
+      <!-- Conteúdo -->
+      <div class="relative z-10 max-w-5xl mx-auto text-center">
+        <h2 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-yellow-500 to-blue-500 mb-8">
+          O que é Atika?
+        </h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          Atika é uma <span class="text-yellow-500 font-semibold">criptomoeda revolucionária</span> que combina a segurança e inovação da
+          <span class="text-purple-500 font-semibold">tecnologia quântica</span> com o poder da <span class="text-blue-500 font-semibold">criptoeconomia</span>.
+          Nosso objetivo é transformar o futuro financeiro e tecnológico.
+        </p>
+      </div>
+
+      <!-- Separador decorativo -->
+      <div class="mt-12 w-24 h-1 bg-gradient-to-r from-purple-500 to-yellow-500 mx-auto"></div>
+    </div>
+  </section>
+
+  <!-- Barra de Dados -->
+  <section class="py-6 bg-gray-700 text-white">
+    <div class="container mx-auto flex justify-center space-x-8 text-center">
+      <p class="text-lg font-medium">
+        <strong>Nome:</strong> Daniel Neves Lima
+      </p>
+      <p class="text-lg font-medium">
+        <strong>E-mail:</strong>
+        <a href="mailto:danielneveslima@gmail.com" class="text-blue-400 hover:text-blue-300">danielneveslima@gmail.com</a>
+      </p>
+      <p class="text-lg font-medium">
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/daniel-neves-aa2942213/" target="_blank" class="text-blue-400 hover:text-blue-300">
+          linkedin.com/in/daniel-neves-aa2942213/
+        </a>
+      </p>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
